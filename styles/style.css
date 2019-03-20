@@ -7,8 +7,16 @@ html {
 body {
   margin: 0;
   background-color: rgb(18, 127, 121);
+
+}
+@font-face {
+    font-family: Helvetica;
+    src: url('../fonts/Helvetica.ttf');
 }
 .image {
+  position: absolute;
+  top: 34%;
+  left: 20%;
   background: url(../images/assets_4.png) no-repeat;
   background-size: 1250px 1000px;
   height: 147px;
@@ -21,10 +29,23 @@ body {
   display: flex;
   flex-direction: row;
 }
-.test {
-  width: 235px;
-}
 .beach {
   background: url(../images/beach_scene.JPG) no-repeat;
   width: 108px;
+  height: 100px;
+}
+.horse {
+  background: url(../images/assets_4.png) no-repeat;
+  background-position-y: -120px;
+  background-size: 1250px 900px;
+  height: 100px;
+  width: 200px;
+}
+.address {
+  font-family: Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+}
+.border {
+  border-right: 20px;
 }
