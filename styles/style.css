@@ -1,54 +1,41 @@
-html {
-  overflow-x: hidden;
-  max-width: 1940px;
-  max-height: 1148px;
-}
 
 body {
   margin: 0;
   background-color: rgb(18, 127, 121);
+  width: 1940px;
+  height: 1148px;
 }
+
 @font-face {
-    font-family: Helvetica;
-    src: url('../fonts/Helvetica.ttf');
+  font-family: Helvetica;
+  src: url('../fonts/Helvetica.ttf');
 }
 .text-and-button {
-  position: absolute;
-  top: 34%;
-  left: 20%;
   background: url(../images/assets_4.png) no-repeat;
-  background-size: 1250px 1000px;
-  height: 147px;
-  width: 1139px;
+  height: 320px;
+  width: 2500px;
   flex: 1 0 auto;
 }
 
-.beach {
-  position: relative;
-  left: 99%;
-  background: url(../images/beach_scene.JPG) no-repeat;
-  width: 108px;
-  height: 100px;
-}
 .horse {
   background: url(../images/assets_4.png) no-repeat;
-  background-position-y: -180px;
-  background-size: 1700px 1350px;
-  height: 150px;
-  width: 250px;
+  background-position-y: -300px;
+  height: 225px;
+  width: 440px;
 }
-.horse-and-text {
-  position: relative;
-  left: 8%;
-}
+
 .address {
   font-family: Helvetica;
+  font-size: 20px;
   color: #fff;
 }
 .wrapper {
+  position: relative;
+  top: 400px;
+  left: 389px;
   display: flex;
   flex-direction: column;
-  height: 100%;
+
 }
 
 .footer {
