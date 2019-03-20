@@ -1,0 +1,22 @@
+html {
+  overflow-x: hidden;
+  width: 1940px;
+  height: 1148px;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(18, 127, 121);
+
+
+  position: relative;
+}
+.image {
+  position: absolute;
+  top: 400px;
+  left: 389px;
+  background: url(../images/assets_4.png) no-repeat;
+  background-size: 1250px 1000px;
+  height: 147px;
+  width: 1139px;
+}
