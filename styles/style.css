@@ -10,11 +10,10 @@ body {
   font-family: Helvetica;
   src: url('../fonts/Helvetica.ttf');
 }
-.text-and-button {
+.content {
   background: url(../images/assets_4.png) no-repeat;
   height: 320px;
   width: 2500px;
-  flex: 1 0 auto;
 }
 
 .horse {
@@ -29,29 +28,19 @@ body {
   font-size: 20px;
   color: #fff;
 }
-.wrapper {
+.content {
   position: relative;
   top: 400px;
   left: 389px;
-  display: flex;
-  flex-direction: column;
-
 }
 
 .footer {
-  /* flex: 0 0 auto; */
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+
 }
-.reference {
+.line {
   border-left: 20px solid #ccc;
 }
-.footer span {
+.footer div {
   font-family: Helvetica;
   font-size: 20px;
   color: #fbae17;
