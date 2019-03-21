@@ -39,5 +39,20 @@ body {
 }
 
 .footer {
-  flex: 0 0 auto;
+  /* flex: 0 0 auto; */
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.reference {
+  border-left: 20px solid #ccc;
+}
+.footer span {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #fbae17;
 }
